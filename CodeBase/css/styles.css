@@ -150,11 +150,14 @@ h2{
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
- .pricing-container .pricing-table {
-   width:350px;
+ .pricing-table {
+ width:25%;
    margin: auto;
   position: relative;
+
+
 }
  .pricing-container .pricing-table .tb-border:before {
   content: '';
@@ -175,7 +178,7 @@ h2{
   bottom: 0;
   left: 100%;
   right: 0;
-  background: #e68d8d;
+  background: #ffa3a3;
   position: absolute;
   z-index: 1;
   transition: left 0.2s linear 0.2s;
@@ -241,7 +244,7 @@ h2{
 }
  .pricing-container .pricing-inner .plan-price-container {
   overflow: hidden;
-}
+  background-color:blue;
  .pricing-container .pricing-inner .plan-price {
   font-size: 46px;
   margin: 0;
@@ -299,4 +302,9 @@ h2{
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
  }
+}
+@media screen and (max-witdth:900px){
+  .pricing-container{
+  flex-direction: column;
+  }
 }
