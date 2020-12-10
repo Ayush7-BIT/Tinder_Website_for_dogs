@@ -233,7 +233,7 @@ h2{
   opacity: 1;
 }
  .pricing-container .pricing-inner {
-  background: #edafaf;
+  background: #f1c4c4;
   text-align: center;
   color: #fff;
   -webkit-transition: background 0.4s ease-in, color 0.4s ease-in;
@@ -241,19 +241,22 @@ h2{
  .pricing-container .pricing-inner .plan-name {
   padding: 25px 15px 0 15px;
   position: relative;
+  color:blueviolet;
 }
  .pricing-container .pricing-inner .plan-price-container {
   overflow: hidden;
   background-color:blue;
+ }
  .pricing-container .pricing-inner .plan-price {
   font-size: 46px;
   margin: 0;
   font-weight: 800;
 }
  .pricing-container .pricing-inner .plan-desc {
-  font-size: 12px;
+  font-size: 22px;
   margin-bottom: 15px;
   padding: 0 20px 25px;
+  color:rgb(170, 0, 0);
 }
  .pricing-container .pricing-inner button {
   font-size: 13px;
