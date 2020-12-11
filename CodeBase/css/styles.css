@@ -184,7 +184,16 @@ box-shadow:  -4px -4px 20px 5px rgba(0,0,0,0.18);
 .cardd .cardd_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+letter-spacing: 0.2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: overline solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: none;
   font-weight: bold;
   font-size: 40px;
   margin-top: -90px;
