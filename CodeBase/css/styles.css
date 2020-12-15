@@ -1,165 +1,142 @@
 #title {
   background-color: #ff4c68;
   color: white;
-  
 }
-h1{
+h1 {
   font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
-  
 }
-.row{
+.row {
   padding: 3rem;
   margin: 2rem;
 }
-.container-fluid{
+.container-fluid {
   padding: 3% 15%;
- 
-
 }
 
-body{
-   font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
-.navbar{
-  
-
+.navbar {
 }
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
-  
 }
-.nav-item{
+.nav-item {
   padding: 0px 18px;
 }
-.nav-link{
+.nav-link {
   font-size: 1.5rem;
 }
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0%;
 }
-.title-image{
+.title-image {
   width: 75%;
   transform: rotate(25deg);
   padding: 20px;
   margin-bottom: 25px;
   margin-left: 40px;
-  right:2rem;
-
-  
-
+  right: 2rem;
 }
-h3{
+h3 {
   font-family: montserrat Black 900 italic;
   font-size: 1.5rem;
-  
 }
-#features{
+#features {
   padding: 3% 15%;
- 
 }
-.feature-box{
+.feature-box {
   text-align: center;
   padding: 10%;
 }
-p{
+p {
   color: grey;
   margin-top: 1.5rem;
 }
-.good-option{
+.good-option {
   color: #ef8172;
   margin-bottom: 2rem;
 }
-.good-option:hover{
+.good-option:hover {
   color: #ff4c68;
 }
-#testimonials{
-  
+#testimonials {
   text-align: center;
   background-color: #ef8172;
-  color: #fff
-
-
+  color: #fff;
 }
-.container-fluid{
+.container-fluid {
   padding-bottom: 0rem;
 }
-h2{
+h2 {
   padding: 5%;
   margin-bottom: 1rem;
   text-align: center;
 }
-.west-delhi{
+.west-delhi {
   width: 20%;
   border-radius: 100%;
-
 }
-#press{
+#press {
   background-color: cyan;
   padding: 7% 15%;
   margin: 2rem;
   text-align: center;
 }
-.tech{
+.tech {
   width: 15%;
   margin: 1rem;
-  
 }
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
-.cris-btn{
+.cris-btn {
   width: 60%;
   text-align: center;
   border-radius: 1rem;
-
 }
-.dog{
+.dog {
   text-align: center;
   margin-top: 0rem;
   padding: 0%;
 }
-.pricing{
+.pricing {
   padding-bottom: 0rem;
 }
-#pricing{
+#pricing {
   text-align: center;
   padding-bottom: 0rem;
-  
 }
-.custom-class{
+.custom-class {
   padding: 1rem;
 }
-#cta{
+#cta {
   background-color: #ff4c68;
   padding: 7% 15%;
   margin: 3rem;
   text-align: center;
-
 }
-.btc{
-  text-align: center;
-  
-}
-#footer{
+.btc {
   text-align: center;
 }
-.pricing-container{
+#footer {
+  text-align: center;
+}
+.pricing-container {
   display: flex;
   align-items: stretch;
-  
 }
- .pricing-table {
- width:25%;
-   margin: auto;
+.pricing-table {
+  width: 25%;
+  margin: auto;
   position: relative;
-height:fit-content;
-
+  height: fit-content;
 }
- .pricing-container .pricing-table .tb-border:before {
-  content: '';
+.pricing-container .pricing-table .tb-border:before {
+  content: "";
   display: block;
   height: 5px;
   top: 0;
@@ -170,8 +147,8 @@ height:fit-content;
   z-index: 1;
   transition: right 0.2s linear 0.6s;
 }
- .pricing-container .pricing-table .tb-border:after {
-  content: '';
+.pricing-container .pricing-table .tb-border:after {
+  content: "";
   display: block;
   height: 5px;
   bottom: 0;
@@ -183,8 +160,8 @@ height:fit-content;
   z-index: 1;
   transition: left 0.2s linear 0.2s;
 }
- .pricing-container .pricing-table .lr-border:before {
-  content: '';
+.pricing-container .pricing-table .lr-border:before {
+  content: "";
   display: block;
   width: 5px;
   top: 100%;
@@ -196,8 +173,8 @@ height:fit-content;
   z-index: 1;
   transition: top 0.2s linear;
 }
- .pricing-container .pricing-table .lr-border:after {
-  content: '';
+.pricing-container .pricing-table .lr-border:after {
+  content: "";
   display: block;
   width: 5px;
   top: 0;
@@ -209,63 +186,63 @@ height:fit-content;
   z-index: 1;
   transition: bottom 0.2s linear 0.4s;
 }
- .pricing-container .pricing-table:hover .pricing-inner {
-  background: #ff8fa2;
+.pricing-container .pricing-table:hover .pricing-inner {
+  background: #ffffff;
 
   color: #000;
 }
- .pricing-container .pricing-table:hover .tb-border:before {
+.pricing-container .pricing-table:hover .tb-border:before {
   right: 0;
   transition: right 0.2s linear;
 }
- .pricing-container .pricing-table:hover .tb-border:after {
+.pricing-container .pricing-table:hover .tb-border:after {
   left: 0;
   transition: left 0.2s linear 0.4s;
 }
- .pricing-container .pricing-table:hover .lr-border:before {
+.pricing-container .pricing-table:hover .lr-border:before {
   top: 0;
   transition: top 0.2s linear 0.6s;
 }
- .pricing-container .pricing-table:hover .lr-border:after {
+.pricing-container .pricing-table:hover .lr-border:after {
   bottom: 0;
   transition: bottom 0.2s linear 0.2s;
 }
- .pricing-container .pricing-table:hover button {
+.pricing-container .pricing-table:hover button {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   opacity: 1;
 }
- .pricing-container .pricing-inner {
-  background: #ff8fa2;
+.pricing-container .pricing-inner {
+  background: #ffffff;
   text-align: center;
   color: #fff;
   -webkit-transition: background 0.4s ease-in, color 0.4s ease-in;
 }
- .pricing-container .pricing-inner .plan-name {
+.pricing-container .pricing-inner .plan-name {
   padding: 25px 15px 0 15px;
   position: relative;
-  color:blueviolet;
+  color: blueviolet;
 }
- .pricing-container .pricing-inner .plan-price-container {
+.pricing-container .pricing-inner .plan-price-container {
   overflow: hidden;
-  background-color:rgb(195, 0, 255);
- }
- .pricing-container .pricing-inner .plan-price {
+  background-color: rgb(195, 0, 255);
+}
+.pricing-container .pricing-inner .plan-price {
   font-size: 46px;
   margin: 0;
   font-weight: 800;
-  color:white;
+  color: white;
 }
- .pricing-container .pricing-inner .plan-desc {
+.pricing-container .pricing-inner .plan-desc {
   font-size: 22px;
   margin-bottom: 15px;
   padding: 0 20px 25px;
-  color:rgb(170, 0, 0);
+  color: rgb(170, 0, 0);
 }
-.pricing-icons{
-  color:rgb(30, 0, 65);
+.pricing-icons {
+  color: rgb(30, 0, 65);
 }
- .pricing-container .pricing-inner button {
+.pricing-container .pricing-inner button {
   font-size: 23px;
   border-radius: 50%;
   border: none;
@@ -315,12 +292,12 @@ height:fit-content;
  }
 } 
 */
-@media only screen and (max-width:800px){
-  .pricing-container{
-      flex-direction: column;
+@media only screen and (max-width: 800px) {
+  .pricing-container {
+    flex-direction: column;
   }
-  .pricing-table{
-    width:80%;
-    margin-bottom:2rem;
+  .pricing-table {
+    width: 80%;
+    margin-bottom: 2rem;
   }
 }
