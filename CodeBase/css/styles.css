@@ -134,6 +134,7 @@ h2 {
   margin: auto;
   position: relative;
   height: fit-content;
+  border: 4px solid rgb(99, 99, 99);
 }
 .pricing-container .pricing-table .tb-border:before {
   content: "";
