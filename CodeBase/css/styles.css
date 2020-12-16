@@ -22,12 +22,14 @@ h1{
 body{
    font-family: 'Montserrat', sans-serif;
 }
-/* .navbar{
-  
-
-} */
+.navbar{
+  position: absolute;
+  left: 0;top: 0;right: 0;
+  padding:0 0.5rem;
+} 
 .navbar-brand{
-  font-family: "Ubuntu";
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 5px;
   font-size: 2.5rem;
   
 }
@@ -97,7 +99,7 @@ h2{
 
 }
 #press{
-  background-color: cyan;
+  background-color: #ffff;
   padding: 7% 15%;
   margin: 2rem;
   text-align: center;
@@ -120,20 +122,22 @@ h2{
   text-align: center;
   margin-top: 0rem;
   padding: 0%;
+  color: #ffff;
 }
 .pricing{
   padding-bottom: 0rem;
+  color: #ffff;
 }
 #pricing{
   text-align: center;
   padding-bottom: 0rem;
-  
+  background-color: #FF4C68;
 }
 .custom-class{
   padding: 1rem;
 }
 #cta{
-  background-color: #ff4c68;
+  background-color: #ffff;
   padding: 7% 15%;
   margin: 3rem;
   text-align: center;
