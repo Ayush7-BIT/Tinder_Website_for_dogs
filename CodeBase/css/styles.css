@@ -19,13 +19,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.navbar{
+.navbar {
   position: absolute;
-  left: 0;top: 0;right: 0;
-  padding:0 0.5rem;
-} 
-.navbar-brand{
-  font-family: 'Montserrat', sans-serif;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 0 0.5rem;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
   padding: 10px 5px;
   font-size: 2.5rem;
 }
@@ -85,13 +87,9 @@ h2 {
   width: 20%;
   border-radius: 100%;
 }
-<<<<<<< HEAD
+
 #press {
-  background-color: cyan;
-=======
-#press{
   background-color: #ffff;
->>>>>>> 9f96161deaccf27300fecf847215d55860275d5e
   padding: 7% 15%;
   margin: 2rem;
   text-align: center;
@@ -121,21 +119,13 @@ h2 {
 #pricing {
   text-align: center;
   padding-bottom: 0rem;
-<<<<<<< HEAD
-=======
-  background-color: #FF4C68;
->>>>>>> 9f96161deaccf27300fecf847215d55860275d5e
 }
 .custom-class {
   padding: 1rem;
 }
-<<<<<<< HEAD
+
 #cta {
-  background-color: #ff4c68;
-=======
-#cta{
   background-color: #ffff;
->>>>>>> 9f96161deaccf27300fecf847215d55860275d5e
   padding: 7% 15%;
   margin: 3rem;
   text-align: center;
