@@ -1,6 +1,6 @@
 #title {
   background-color: #ff4c68;
-  color: white;
+  color: #ffffff;
   
 }
 h1{
@@ -15,18 +15,12 @@ h1{
 }
 .container-fluid{
   padding: 3% 15%;
- 
-
-}
+ }
 
 body{
    font-family: 'Montserrat', sans-serif;
    height: 520px;
 }
-/* .navbar{
-  
-
-} */
 .navbar-brand{
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -48,12 +42,9 @@ body{
   margin-bottom: 25px;
   margin-left: 40px;
   right:2rem;
-
-  
-
 }
 h3{
-  font-family: montserrat Black 900 italic;
+  font-family: 'Montserrat' #000000 900 italic;
   font-size: 1.5rem;
   
 }
@@ -66,7 +57,7 @@ h3{
   padding: 10%;
 }
 p{
-  color: grey;
+  color: #808080;
   margin-top: 1.5rem;
 }
 .good-option{
@@ -185,7 +176,7 @@ box-shadow:  -4px -4px 20px 5px rgba(0,0,0,0.18);
 .cardd .cardd_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
 font-size: 20px;
 letter-spacing: 0.2px;
 word-spacing: 2px;
@@ -209,35 +200,19 @@ text-transform: none;
 }
 
 .title-white {
-  color: white;
+  color: #ffffff;
 }
 
 .title-black {
-  color: black;
+  color: #000000;
 }
 
-@media all and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .card-list {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
 }
-
-/*
-.card {
-  margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 40px;
-  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  transition: 0.4s;
-}
-*/
 
 .social {
   margin: 20px;
@@ -253,7 +228,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 2px dashed black;
+  border: 2px dashed #000000;
   background-clip: content-box;
   padding: 10px;
   transition: .5s;
@@ -274,29 +249,29 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 .social .link:hover {
   padding: 20px;
-  color: black;
+  color: #000000;
   margin-left: -5px;
   transform: translateX(10px) rotate(360deg);
 }
 
 .social .link.github {
-  background-color: tomato;
-  color: black;
+  background-color: #ff6347;
+  color: #000000;
 }
 
 .social .link.twitter {
   background-color: #00ACEE;
-  color: black;
+  color: #000000;
 }
 
 .social .link.linkedin {
   background-color: #3B5998;
-  color: black;
+  color: #000000;
 }
 
 .social .link.email {
   background-color: #34A853;
-  color: black;
+  color: #000000;
 }
 
 
