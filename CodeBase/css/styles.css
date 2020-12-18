@@ -21,6 +21,15 @@ body{
    font-family: 'Montserrat', sans-serif;
    height: 520px;
 }
+
+.navbar{
+  z-index: 1000;
+  border-radius: 6px; 
+  position: fixed;
+  left: 0;top: 0;right: 0;
+  padding:0 0.5rem;
+} 
+
 .navbar-brand{
   font-family: 'Montserrat', sans-serif;
   padding: 10px 5px;
